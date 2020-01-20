@@ -7,6 +7,7 @@ import { EmpService } from '../emp.service';
   styleUrls: ['./layout.component.scss']
 })
 export class LayoutComponent implements OnInit {
+  header = 'Layout page';
   todaydate;
   constructor(private myService: EmpService) { }
 
